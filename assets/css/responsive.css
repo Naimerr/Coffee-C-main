@@ -1,0 +1,278 @@
+@media(min-width:1280px){
+.hero-title h2 {
+    font-size: 42px;
+}
+.hero-wrapper-title h3 {
+    font-size: 25px;
+}
+.hero-wrapper-desc p {
+    font-size: 14px;
+}
+.banner-right {
+    padding: 0px 0 0px;
+}
+.hero-wrapper-title {
+    padding: 24px 0 11px 15px;
+}
+.hero-wrapper-desc {
+    padding-left: 15px;
+}
+}
+@media( max-width:1280px){
+.hero-title h2 {
+    font-size: 42px;
+}
+.hero-wrapper-desc {
+    padding-left: 0px;
+}
+.hero-wrapper-title {
+    padding: 30px 0 0px 0px;
+}
+.hero-wrapper-title h3 {
+    font-size: 25px;
+}
+.hero-wrapper-desc p {
+    font-size: 14px;
+}
+.banner-right {
+    padding: 0px 0 0px;
+}
+}
+@media(max-width:1180px){
+.container {
+    padding: 0px 13px 0 29px;
+}
+.hero-title h2 {
+    font-size: 40px;
+}
+.hero-wrapper-title {
+    padding: 20px 0 0px 0px;
+}
+}
+
+@media(max-width:1080px){
+.hero-wrapper-desc p {
+    font-size: 14px;
+}
+.hero-body {
+    gap: 10px;
+}
+.hero-wrapper-desc p {
+    font-size: 12px;
+}
+.hero-wrapper-title h3 {
+    font-size: 22px;
+}
+}
+
+
+@media(max-width:1024px){
+.footer-form input[type=text], [type=number] {
+    padding: 12px 145px 12px 10px;
+}
+.hero-body {
+    flex-direction: column;
+}
+.hero-title h2 {
+    font-size: 48px;
+}
+.hero-wrapper-title {
+    padding: 15px 0 11px 30px;
+}
+.hero-wrapper-desc {
+    padding-left: 30px;
+}
+.hero-wrapper {
+    padding: 95px 150px 83px 63px;
+    margin-bottom: 30px;
+}
+}
+
+
+@media(max-width:991px){
+.terms-heading h4 {
+    font-size: 20px;
+}
+.banner-body {
+    gap: 35px;
+}
+}
+
+@media(max-width:880px){
+.hero-title h2 {
+    font-size: 40px;
+}
+.hero-wrapper {
+    padding: 55px 45px 83px 63px;
+}
+}
+
+
+
+@media(max-width:767px){
+form.footer-form {
+    flex-direction: column;
+}
+.footer-submit-wrapper {
+  text-align: center;
+}
+.banner-body {
+    flex-direction: column;
+}
+.hero-wrapper {
+    padding: 46px 98px 63px 15px;
+}
+.header-logo {
+    padding-bottom: 30px;
+}
+}
+
+@media(max-width:700px){
+.hero-wrapper {
+    padding: 68px 0px 44px 22px;
+}
+.hero-wrapper-title {
+    padding: 0px 0 0px 30px;
+}
+}    
+
+
+@media(max-width:600px){
+.hero-wrapper {
+    padding: 48px 0px 44px 22px;
+}
+}
+
+@media(max-width:576px){
+.terms-heading h4 {
+    font-size: 18px;
+}
+.terms-desc p {
+    font-size: 18px;
+}
+form.footer-form {
+    gap: 25px;
+}
+.form-wrapper {
+    gap: 0px;
+    flex-direction: column;
+}
+.hero-title h2 {
+    font-size: 35px;
+}
+.hero-wrapper {
+    padding: 45px 0px 46px 0px;
+}
+.hero-wrapper-title h3 {
+    font-size: 24px;
+}
+}
+
+  
+@media(max-width:490px){
+.terms-title h2 {
+    font-size: 35px;
+}
+.footer-title h3 {
+    font-size: 25px;
+}
+.footer-title {
+    margin-bottom: 35px;
+}
+.footer-spacer {
+    margin: 50px 0 35px;
+}
+.banner-bg {
+    padding: 80px 0 80px;
+}
+.hero-title h2 {
+    font-size: 28px;
+}
+.hero-wrapper-desc p {
+    font-size: 12px;
+}
+.hero-wrapper-title h3 {
+    font-size: 20px;
+}
+.hero-wrapper {
+    padding: 34px 0px 38px 1px;
+}
+}
+
+
+@media(max-width:430px){
+.hero-wrapper {
+    padding: 28px 0px 26px 1px;
+}
+.hero-wrapper-desc p {
+    font-size: 10px;
+}
+.hero-wrapper-title h3 {
+    font-size: 18px;
+}
+.hero-wrapper-title {
+    padding: 0px 0 0px 15px;
+}
+.hero-wrapper-desc {
+    padding-left: 15px;
+}
+}
+
+
+@media(max-width:390px){
+.hero-wrapper-title h3 {
+    font-size: 18px;
+}
+.hero-wrapper-desc p {
+    font-size: 10px;
+}
+.hero-wrapper-desc p {
+    font-size: 8px;
+}
+.hero-wrapper-title h3 {
+    font-size: 14px;
+}
+.banner-title h2 {
+    font-size: 28px;
+}
+.hero-title h2 {
+    font-size: 25px;
+}
+}
+
+
+@media(max-width:365px){
+.terms-title h2 {
+    font-size: 30px;
+}
+.footer-title h3 {
+    font-size: 23px;
+}
+.footer-content p {
+    font-size: 14px;
+}
+.banner-title h2 {
+    font-size: 28px;
+}
+.header-logo {
+    padding-bottom: 15px;
+}
+.hero-wrapper-title {
+    padding: 0px 0 0px 15px;
+}
+.hero-wrapper-desc {
+    padding-left: 15px;
+}
+.container {
+    padding: 0px 5px 0 10px;
+}
+}
+@media(max-width:330px){
+
+.hero-wrapper-desc p {
+    font-size: 8px;
+}
+.hero-title h2 {
+    font-size: 22px;
+}
+}

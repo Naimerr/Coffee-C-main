@@ -1,0 +1,372 @@
+/* Google Font */
+ @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+
+/* Basic Setup */
+:root{
+  --background-color:#003E40;
+  --primary-color:#53CF91;
+  --secondary-color:#0098CA;
+  --black-color:#000000;
+  --heading-color:#003E40;
+  --text-color:#4A4A4A;
+  --text-color-two:#E7CCB0;
+  --text-font: 'Nunito Sans', sans-serif;
+  --text-font-two:'Playball', cursive;
+  --white-color:#FFFFFF;
+}
+/* font-family: 'Playball', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+img{
+    max-width: 115%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,p{
+    margin-bottom: 0;
+}
+
+/* hero section css start */
+.hero-bg{
+   background-image: url(../images/hero-bg.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 0px 0 100px;
+   overflow: hidden;
+}
+.header-logo{
+    text-align: center;
+    padding-bottom: 45px;
+}
+.hero-body{
+    display: flex;
+    gap: 35px;
+}
+.hero-title h2{
+    font-size: 48px;
+    font-family: var(--text-font);
+    text-transform: capitalize;
+    padding-bottom: 18px;
+}
+.hero-title h2 span {
+  font-family: var(--text-font-two);
+  font-weight: 400;
+  color: var(--heading-color);
+
+}
+.hero-desc p {
+    font-size: 18px;
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-weight: 500;
+}
+/* .hero-wrapper {
+    background: #FFFFFF;
+    padding: 18px 0 27px 24px;
+    margin-top: 32px;
+} */
+.hero-wrapper{
+   background-image: url(../images/Group\ 9.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 18px 0 27px 24px;
+   margin-top: 20px;
+}
+.hero-wrapper-title h3 {
+    font-size: 28px;
+    font-family: var(--text-font);
+    font-weight: 700;
+    color:var(--background-color);
+}
+.hero-wrapper-desc p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--text-font);
+    color:var(--background-color);
+
+}
+.hero-wrapper-title {
+    padding: 15px 0 11px 30px;
+}
+.hero-wrapper-desc {
+    padding-left: 30px;
+}
+span.prize {
+    color: #FF6500;
+}
+.hero-right{
+    background-color: var(--background-color);
+    padding: 49px 38px 45px 40px;
+    border-radius: 24px;
+}
+.hero-right input[type=text],[type=number] {
+    width: 100%;
+    padding: 12px 105px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.hero-right input[type=submit] {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 16px 32px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+.hero-right input[type=submit]:hover {
+    background-color: var(--text-color-two);
+}
+.frm-grp.submit {
+    text-align: center;
+}
+.form-wrapper{
+    display: flex;
+    gap: 38px;
+}
+.frm-grp.check-span {
+    margin: 29px 0 23px;
+}
+
+/*  */
+
+
+label.label-text {
+    color: var(--text-color-two);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--text-font);
+}
+
+/* The container */
+.check-wrapper {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: var(--text-color-two);
+}
+
+/* Hide the browser's default checkbox */
+.check-wrapper input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 17px;
+  width: 17px;
+  background-color: #eee;
+  border-radius: 20px;
+}
+
+/* On mouse-over, add a grey background color */
+.check-wrapper:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check-wrapper input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.check-wrapper:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.check-wrapper input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.check-wrapper .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid var(--white-color);
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* hero section css end */
+
+
+/* banner section start */
+.banner-bg{
+    background-image: url(../images/bannerbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 144px 0 116px;
+    overflow: hidden;
+}
+.banner-body {
+    display: flex;
+    gap: 69px;
+}
+.banner-img img {
+    max-width: 100%;
+    height: auto;
+}
+.banner-right {
+    padding: 96px 0 0px;
+}
+.banner-title h2 {
+    color: var(--background-color);
+    font-size: 32px;
+    font-weight: 500;
+    font-family: var(--text-font);
+}
+.banner-desc p {
+    font-family: var(--text-font);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--black-color);
+    padding-top: 15px;
+}
+.banner-title.banner-title-two {
+    margin: 20px 0 0px;
+}
+.banner-img img {
+  border-radius: 10px;
+}
+/* banner section end */
+
+
+
+/* footer section css start */
+.footer-bg{
+    background-color: var(--background-color);
+    padding: 61px 0 52px;
+}
+.footer-title h3 {
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--white-color);
+    font-family: var(--text-font);
+}
+.footer-title {
+    margin-bottom: 66px;
+}
+form.footer-form {
+    display: flex;
+    gap: 47px;
+}
+.footer-content{
+   text-align: center;
+}
+.footer-content p {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--white-color);
+    font-family: var(--text-font);
+}
+a.terms-link {
+   color:var(  --secondary-color);
+   text-transform: capitalize;
+}
+.footer-spacer {
+    margin: 65px 0 38px;
+}
+.footer-spacer hr {
+    color: var(--white-color);
+}
+.footer-form input[type=text],[type=number] {
+    width: 100%;
+    padding: 12px 145px 12px 33px;
+    margin: 8px 0 0;
+    display: inline-block;
+    border: 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.footer-form input[type=submit] {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 12px 90px;
+    margin: 30px 0 0 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+.footer-form input[type=submit]:hover {
+    background-color: var(--text-color-two);
+}
+p.copy-right-text {
+    margin-bottom: 17px;
+}
+/* footer section css end */
+
+
+
+/* terms page css start */
+.terms-bg{
+   background-color: var(--text-color-two);
+   padding: 0px 0;
+}
+.terms-logo{
+    text-align: center;
+}
+.terms-hero-bg{
+  padding: 61px 0 130px;
+}
+.terms-title h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--background-color);
+    padding-bottom: 54px;
+}
+.terms-heading h4 {
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 24px;
+    font-family: var(--text-font);
+}
+.terms-heading-one{
+    padding: 30px 0 47px;
+}
+.terms-desc p {
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-size: 20px;
+}
