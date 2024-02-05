@@ -370,3 +370,41 @@ p.copy-right-text {
     font-family: var(--text-font);
     font-size: 20px;
 }
+
+
+/* thanks page css */
+.thanks-bg{
+    padding: 50px 0;
+}
+.thanks-content{
+    text-align: center;
+}
+.thanks-content img {
+    max-width: 100%;
+    height: auto;
+}
+.thanks-content h2{
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+.thanks-content p{
+    font-family:'Nunito Sans', sans-serif;
+    margin-bottom: 0;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.thanks-footer-bg{
+    background-color: #003e40;
+    padding: 20px 0;
+}
+.thanks-footer-bg{
+    text-align: center;
+}
+.thanks-footer-bg p{
+   color: #fff;
+   margin-bottom: 0;
+   font-size: 18px;
+   font-family:'Nunito Sans', sans-serif;
+}
